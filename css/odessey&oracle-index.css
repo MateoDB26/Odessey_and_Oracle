@@ -1,0 +1,66 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Fruits Delight';
+	src: url("Fruits Delight.otf");
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url("Nunito.ttf");
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background: url("../images/Fondo.svg");
+	background-size: cover;
+}
+header {
+	background: black;
+	height: 65px;
+}
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Fruits Delight';
+}
+.link {
+	margin-top: 15px;
+	padding-left: 95px;
+	padding-right: 95px;
+	font-size: 25px;
+}
+.subrayado {
+	text-decoration-color: transparent;
+	color: white
+}
+
+/*Home*/
+
+.titulo {
+	color: white;
+	font-size: 90px;
+	font-family: 'Fruits Delight'
+}
+.subtitulo {
+	color: white;
+	font-size: 40px;
+	font-family: 'Nunito';
+	font-weight: normal
+}
+.formulario {
+	color: white;
+	font-size: 27px;
+	font-family: 'Nunito';
+	font-weight: lighter;
+	padding-top: 12px;
+}
+.introduccion {
+	padding-top: 350px;
+	padding-left: 75px
+}
+.aca {
+	text-decoration-color: white;
+	color: white
+}

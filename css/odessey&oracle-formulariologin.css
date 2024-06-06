@@ -1,0 +1,141 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Fruits Delight';
+	src: url("Fruits Delight.otf");
+}
+@font-face {
+	font-family: 'Nunito';
+	src: url("Nunito.ttf");
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background: url("../images/Formulario.jpg");
+	background-size: contain
+}
+header {
+	background: linear-gradient(to top, black -25%, #EC028D);
+	height: 65px;
+}
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Fruits Delight';
+}
+.link {
+	margin-top: 15px;
+	padding-left: 95px;
+	padding-right: 95px;
+	font-size: 25px;
+}
+.subrayado {
+	text-decoration-color: transparent;
+	color: white
+}
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background-color: #111111;
+	margin-top: 75px;
+	height: 100px
+}
+.titulo-footer {
+	color: #EAB7D8;
+	font-family: 'Fruits Delight';
+	margin-right: 100px
+}
+.redes {
+	font-family: 'Nunito';
+	font-size: 10px;
+	opacity: 70%;
+}
+.anuncio {
+	color: #EAB7D8;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.link-inicio {
+	color: #EAB7D8;
+	padding-left: 115px;
+}
+.formulario {
+	color: #EAB7D8;
+	font-family: 'Nunito';
+	font-size: 25px;
+	margin-left: 100px
+}
+.aca {
+	text-decoration-color: #EAB7D8;
+	color: #EAB7D8
+}
+
+/*Formulario Log In*/
+
+.titulo {
+	color: white;
+	font-family: 'Fruits Delight';
+	font-size: 45px;
+	margin-left: 100px;
+	margin-right: 125px;
+	margin-top: 50px
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-self: center;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.form-control {
+	background-color: #EBEBEB;
+	width: 90%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-top: 8px;
+	border: thin;
+	font-family: 'Nunito';
+	font-size: 18px
+}
+.form-label {
+	font-family: 'Nunito';
+	color: white;
+	font-size: 20px;
+}
+.boton {
+	background-color: #EC028D;
+	color: white;
+	width: 300px;
+	padding: 10px;
+	border-radius: 4px;
+	margin-top: 34px;
+	border: thin;
+	font-family: 'Nunito';
+	font-size: 20px
+}
+.mensaje {
+	font-family: 'Nunito';
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-self: center;
+	font-size: 20px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.link-registro {
+	text-decoration-color: #EAB7D8;
+	color: #EAB7D8;	
+}
+.logo {
+	margin-top: 80px;
+	margin-left: 450px;
+	width: 650px;
+}
